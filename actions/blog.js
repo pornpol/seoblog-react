@@ -16,12 +16,18 @@ export const createBlog = (blog, token) => {
     .catch(err => console.log(err));
 };
 
-export const listBlogsWithCategorisAndTags = () => {
+export const listBlogsWithCategorisAndTags = (skip, limit) => {
+  const data = {
+    limit,
+    skip
+  };
   return fetch(`${API}/blogs-categories-tags`, {
     method: 'POST',
     headers: {
-      Accept: 'application/json'
-    }
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
   })
     .then(res => {
       return res.json();
