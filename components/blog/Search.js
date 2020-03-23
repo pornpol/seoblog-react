@@ -32,7 +32,8 @@ const Search = () => {
       ...values,
       search: e.target.value,
       searched: false,
-      results: []
+      results: [],
+      message: ''
     });
   };
 
