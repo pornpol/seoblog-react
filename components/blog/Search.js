@@ -78,7 +78,7 @@ const Search = () => {
   return (
     <div className='container-fluid'>
       <div className='pt-3 pb-5'>{searchForm()}</div>
-      {searchBlogs && (
+      {searched && (
         <div style={{ marginTop: '-120px', marginBottom: '-80px' }}>
           {searchBlogs(results)}
         </div>
