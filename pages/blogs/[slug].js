@@ -113,7 +113,9 @@ const SingleBlog = ({ blog, query }) => {
             </div>
             <div className='container'>
               <section>
-                <div className='col-md-12 lead'>{renderHTML(blog.body)}</div>
+                <div className='col-md-12 lead'>
+                  {renderHTML(blog.body.replace('<img ', '<img width="100%"'))}
+                </div>
               </section>
             </div>
             <div className='container'>

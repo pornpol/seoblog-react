@@ -80,7 +80,7 @@ const BlogCreate = ({ router }) => {
     // console.log('ready to publishBlog');
     createBlog(formData, token).then(data => {
       if (data.error) {
-        setValues({ ...values, error: data.error });
+        setValues({ ...values, error: data.error, success: '' });
       } else {
         setValues({
           ...values,
@@ -184,7 +184,7 @@ const BlogCreate = ({ router }) => {
   );
   const showSuccess = () => (
     <div
-      className='alert alert-sucess'
+      className='alert alert-success'
       style={{ display: success ? '' : 'none' }}
     >
       {success}
