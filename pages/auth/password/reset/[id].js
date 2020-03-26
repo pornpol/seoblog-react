@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Layout from '../../../../components/Layout';
-import { withRouter, Router } from 'next/router';
+import { withRouter } from 'next/router';
 import { resetPassword } from '../../../../actions/auth';
 
 const ResetPassword = ({ router }) => {
