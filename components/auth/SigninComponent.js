@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Router from 'next/router';
+import Link from 'next/link';
 import { signin, authenticate, isAuth } from '../../actions/auth';
 
 const SigninComponent = () => {
@@ -8,7 +9,7 @@ const SigninComponent = () => {
   }, []);
 
   const [values, setValues] = useState({
-    email: '9pol@9pol.com',
+    email: '9pol@9pol.dev',
     password: '123456',
     error: '',
     loading: false,
@@ -88,6 +89,10 @@ const SigninComponent = () => {
       {showLoading()}
       {showMessage()}
       {showForm && signinForm()}
+      <br />
+      <Link href='/auth/password/forgot'>
+        <a className='btn btn-outline-danger'>Forgot password</a>
+      </Link>
     </React.Fragment>
   );
 };
