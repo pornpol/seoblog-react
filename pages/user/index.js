@@ -6,12 +6,12 @@ const UserIndex = () => {
   return (
     <Layout>
       <Private>
-        <div className='container-fluid'>
+        <div className='container'>
           <div className='row'>
-            <div className='col-md-12 pt-5 pb-5'>
+            <div className='col-md-12 pt-5 pb-5 text-center'>
               <h2>User Dashboard</h2>
             </div>
-            <div className='col-md-4'>
+            <div className='col-md-6'>
               <ul className='list-group'>
                 <li className='list-group-item'>
                   <a href='/user/crud/blog'>Create Blog</a>
@@ -26,7 +26,7 @@ const UserIndex = () => {
                 </li>
               </ul>
             </div>
-            <div className='col-md-8'>Right</div>
+            <div className='col-md-6'>Right</div>
           </div>
         </div>
       </Private>

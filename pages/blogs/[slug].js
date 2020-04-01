@@ -94,7 +94,7 @@ const SingleBlog = ({ blog, query }) => {
       <Layout>
         <main>
           <article>
-            <div className='container-fluid'>
+            <div className='container'>
               <section>
                 <div className='row' style={{ marginTop: '-30px' }}>
                   <img

@@ -118,7 +118,7 @@ const Blogs = ({
       {head()}
       <Layout>
         <main>
-          <div className='container-fluid'>
+          <div className='container'>
             <header>
               <div className='col-md-12 pt-3'>
                 <h1 className='display-4 font-weight-bold text-center'>
@@ -134,8 +134,8 @@ const Blogs = ({
               </section>
             </header>
           </div>
-          <div className='container-fluid'>{showAllBlogs()}</div>
-          <div className='container-fluid'>{showLoadedblog()}</div>
+          <div className='container'>{showAllBlogs()}</div>
+          <div className='container'>{showLoadedblog()}</div>
           <div className='text-center pt-5 pb-5'>{loadMoreButton()}</div>
         </main>
       </Layout>

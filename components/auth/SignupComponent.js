@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Router from 'next/router';
+import Link from 'next/link';
 import { signup, isAuth, preSignup } from '../../actions/auth';
 
 const SignupComponent = () => {
