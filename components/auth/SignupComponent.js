@@ -9,9 +9,9 @@ const SignupComponent = () => {
   }, []);
 
   const [values, setValues] = useState({
-    name: '9pol',
-    email: '9pol@9pol.com',
-    password: '123456',
+    name: '',
+    email: '',
+    password: '',
     error: '',
     loading: false,
     message: '',
