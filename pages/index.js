@@ -49,6 +49,27 @@ const Index = () => {
       caption: 'Remote power real-time monitor',
       header: 'IoT Power Monitoring System',
       key: '3'
+    },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project4.jpg`,
+      altText: 'QRCode Generator',
+      caption: 'Batch Generate QR-Code pdf',
+      header: 'QRCode Generator',
+      key: '4'
+    },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project5.jpg`,
+      altText: 'DevCamper API',
+      caption: 'Backend API for the DevCamper application',
+      header: 'DevCamper API',
+      key: '5'
+    },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project6.jpg`,
+      altText: 'Ecommerce Website',
+      caption: 'React Firebase ecommerce website',
+      header: 'Ecommerce Website',
+      key: '6'
     }
   ];
 
