@@ -49,7 +49,7 @@ const Tag = ({ tag, blogs, query }) => {
           <div className='container'>
             <header>
               <div className='col-md-12 pt-3'>
-                <h1 className='display-4 font-weight-bold text-center'>
+                <h1 className='display-5 font-weight-bold text-center'>
                   {tag.name}
                 </h1>
                 {blogs.map((t, i) => (

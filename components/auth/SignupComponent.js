@@ -101,7 +101,7 @@ const SignupComponent = () => {
       {showForm && signupForm()}
       <br />
       <Link href='/auth/password/forgot'>
-        <a className='btn btn-outline-danger'>Forgot password</a>
+        <a className='btn btn-outline-danger mb-3'>Forgot password</a>
       </Link>
     </React.Fragment>
   );

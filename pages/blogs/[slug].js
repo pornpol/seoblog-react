@@ -106,7 +106,7 @@ const SingleBlog = ({ blog, query }) => {
               </section>
               <section>
                 <div className='container'>
-                  <h1 className='display-4 pt-3 pb-3 text-center font-weight-bold'>
+                  <h1 className='display-5 pt-3 pb-3 text-center font-weight-bold'>
                     {blog.title}
                   </h1>
                   <p className='lead mt-3 mark'>
