@@ -49,7 +49,7 @@ const Category = ({ category, blogs, query }) => {
         <main>
           <div className='container'>
             <header>
-              <div className='col-md-12 pt-3'>
+              <div className='col-md-12'>
                 <h1 className='display-5 font-weight-bold text-center'>
                   {category.name}
                 </h1>

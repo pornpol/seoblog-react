@@ -5,9 +5,9 @@ const Signup = () => {
   return (
     <Layout>
       <div className='container'>
-        <h2 className='text-center pt-4 pb-4'>Signup</h2>
         <div className='row'>
-          <div className='col-md-6 offset-md-3'>
+          <div className='col-md-8 offset-md-2'>
+            <h2 className='text-center pb-4'>Sign Up</h2>
             <SignupComponent />
           </div>
         </div>

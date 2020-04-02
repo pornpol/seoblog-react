@@ -120,9 +120,9 @@ const Blogs = ({
         <main>
           <div className='container'>
             <header>
-              <div className='col-md-12 pt-3'>
+              <div className='col-md-12'>
                 <h1 className='display-5 font-weight-bold text-center'>
-                  PROGRAMMING BLOGS AND TUTORIALS
+                  BLOGS AND TUTORIALS
                 </h1>
               </div>
               <section>
@@ -136,7 +136,7 @@ const Blogs = ({
           </div>
           <div className='container'>{showAllBlogs()}</div>
           <div className='container'>{showLoadedblog()}</div>
-          <div className='text-center pt-5 pb-5'>{loadMoreButton()}</div>
+          <div className='text-center pt-3 pb-3'>{loadMoreButton()}</div>
         </main>
       </Layout>
     </React.Fragment>
