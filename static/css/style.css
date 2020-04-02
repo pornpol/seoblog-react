@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 #nprogress .bar {

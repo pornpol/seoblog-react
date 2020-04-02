@@ -27,7 +27,7 @@ const Header = props => {
 
   return (
     <React.Fragment>
-      <Navbar color='light' light expand='md'>
+      <Navbar color='light' light expand='md' className='fixed-top'>
         <Link href='/'>
           <NavLink className='font-weight-bold'>{APP_NAME}</NavLink>
         </Link>
