@@ -16,21 +16,21 @@ import { DOMAIN } from '../config';
 const Index = () => {
   const items = [
     {
-      src: `${DOMAIN}/static/images/seoblog.jpg`,
+      src: `${DOMAIN}/static/images/header1.jpg`,
       altText: 'Slide 1',
       caption: 'Full-Stack IoT Developer',
       header: 'PORNPOL WASUWAT',
       key: '1'
     },
     {
-      src: `${DOMAIN}/static/images/seoblog.jpg`,
+      src: `${DOMAIN}/static/images/header2.jpg`,
       altText: 'Slide 2',
       caption: 'Runner',
       header: 'PORNPOL WASUWAT',
       key: '2'
     },
     {
-      src: `${DOMAIN}/static/images/seoblog.jpg`,
+      src: `${DOMAIN}/static/images/header3.jpg`,
       altText: 'Slide 3',
       caption: 'Traveller',
       header: 'PORNPOL WASUWAT',
