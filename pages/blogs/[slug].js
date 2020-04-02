@@ -12,6 +12,9 @@ import { API, DOMAIN, APP_NAME, FB_APP_ID } from '../../config';
 
 import DisqusThread from '../../components/DisqusThread';
 
+// import '../../node_modules/react-quill/dist/quill.snow.css';
+import 'react-quill/dist/quill.snow.css';
+
 const SingleBlog = ({ blog, query }) => {
   const [related, setRelated] = useState([]);
 

@@ -11,7 +11,8 @@ import { QuillFormats, QuillModules } from '../../helper/quill';
 import { API } from '../../config';
 
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
-import '../../node_modules/react-quill/dist/quill.snow.css';
+// import '../../node_modules/react-quill/dist/quill.snow.css';
+import 'react-quill/dist/quill.snow.css';
 
 const BlogUpdate = ({ router }) => {
   const [categories, setCategories] = useState([]);
