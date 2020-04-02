@@ -75,7 +75,7 @@ const Index = () => {
 
   const head = () => (
     <Head>
-      <title>Programming blogs | {APP_NAME}</title>
+      <title>Pornpol Wasuwat's Blog | {APP_NAME}</title>
       <meta
         name='description'
         content='Personal blogs and tutorials on react node next vue php laravel ans web development'
