@@ -78,16 +78,16 @@ const Index = () => {
       <title>Programming blogs | {APP_NAME}</title>
       <meta
         name='description'
-        content='Pornpol Wasuwat - Personal blogs and tutorials on react node next vue php laravel ans web development'
+        content='Personal blogs and tutorials on react node next vue php laravel ans web development'
       />
       <link rel='canonical' href={`${DOMAIN}`} />
       <meta
         property='og:title'
-        content={`Pornpol Wasuwat Personal Web-site | ${APP_NAME}`}
+        content={`Pornpol Wasuwat's Blog | ${APP_NAME}`}
       />
       <meta
         property='og:description'
-        content='Pornpol Wasuwat - Personal blogs and tutorials on react node next vue php laravel ans web development'
+        content='Personal blogs and tutorials on react node next vue php laravel ans web development'
       />
       <meta property='og:type' content='website' />
       <meta property='og:url' content={`${DOMAIN}`} />
@@ -95,11 +95,11 @@ const Index = () => {
 
       <meta
         property='og:image'
-        content={`${DOMAIN}/static/images/header1.jpg`}
+        content={`${DOMAIN}/static/images/header3.jpg`}
       />
       <meta
         property='og:image:secure_url'
-        content={`${DOMAIN}/static/images/header1.jpg`}
+        content={`${DOMAIN}/static/images/header3.jpg`}
       />
       <meta property='og:image:type' content='image/jpg' />
       <meta property='fb:app_id' content={`${FB_APP_ID}`} />
@@ -137,6 +137,9 @@ const Index = () => {
                   cutting edge technologies. I have 10+ years experience in
                   industrial & agriculture sector. I participate in 50+ awesome
                   projects. If you have any problems. Let me take care.
+                </p>
+                <p className='text-center'>
+                  Line ID: 9pol | Mobile: 0896778789 | Email: 9pol@9pol.dev
                 </p>
               </div>
             </div>
