@@ -70,6 +70,13 @@ const Index = () => {
       caption: 'React Firebase ecommerce website',
       header: 'Ecommerce Website',
       key: '6'
+    },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project7.jpg`,
+      altText: 'Production Monitoring System',
+      caption: 'Real-time production monitor',
+      header: 'Production Monitoring System',
+      key: '7'
     }
   ];
 
@@ -133,10 +140,10 @@ const Index = () => {
                   hand.
                 </p>
                 <p className='text-justify'>
-                  I'm right here to support people to solve their problems with
-                  cutting edge technologies. I have 10+ years experience in
-                  industrial & agriculture sector. I participate in 50+ awesome
-                  projects. If you have any problems. Let me take care.
+                  I'm pleased to help people solve their problems with cutting
+                  edge technologies. I have 10+ years experience in industrial &
+                  agriculture sector. I participate in 50+ awesome projects. If
+                  you have any problems. Let me take care.
                 </p>
                 <p className='text-center'>
                   Line ID: 9pol | Mobile: 0896778789 | Email: 9pol@9pol.dev
@@ -154,7 +161,7 @@ const Index = () => {
               - Freelance (Sep 19 - Present)
               <br />
               <span className='font-weight-bold font-italic'>
-                VP Hardware Engineering
+                Embedded Hardware & Software Team Lead
               </span>{' '}
               - Energy Response Co., Ltd. (Aug 17 - Aug 19)
               <br />
@@ -178,8 +185,35 @@ const Index = () => {
             </p>
           </div>
 
+          <div className='container'>
+            <p className='lead font-weight-bold'>SKILLS</p>
+            <p>
+              <span className='font-weight-bold font-italic'>Electronics</span>{' '}
+              - Circuit & PCB Design, MCU (Arduino, ESP32, STM32 etc.), IoT
+              (NB-IoT, LoRa, MQTT etc.), Embedded Linux (Raspberry Pi)
+              <br />
+              <span className='font-weight-bold font-italic'>
+                Programming Languages
+              </span>{' '}
+              - C, C++, Python, HTML, CSS, JavaScript, TypeScript, PHP, Dart
+              <br />
+              <span className='font-weight-bold font-italic'>Frameworks</span> -
+              ReactJs, NodeJs, NestJs, Node-RED, Flutter
+              <br />
+              <span className='font-weight-bold font-italic'>Databases</span> -
+              MySQL, MongoDB, PostgreSQL, TimeScaleDB, influxDB, SQLite
+              <br />
+              <span className='font-weight-bold font-italic'>Platforms</span> -
+              Digital Ocean, AWS, Firebase
+              <br />
+              <span className='font-weight-bold font-italic'>Tools</span> - git,
+              VSCode, Docker, PostMan
+              <br />
+            </p>
+          </div>
+
           <div className='container pb-4'>
-            <p className='lead font-weight-bold'>PORTFOLIOS</p>
+            <p className='lead font-weight-bold'>SHOWCASE</p>
             <UncontrolledCarousel items={items2} />
           </div>
 
