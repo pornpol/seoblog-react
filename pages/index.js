@@ -134,19 +134,20 @@ const Index = () => {
                   </span>
                   . You can call me{' '}
                   <span className='font-weight-bold font-italic'>"Pol"</span>. I
-                  am Embedded IoT Engineer, Fullstack Developer, Runner and so
-                  on. I fall in love with technology. I always try and learn new
-                  things to make sure that the latest technologies are in my
-                  hand.
+                  am Embedded IoT Engineer, Fullstack Developer and Technology
+                  Lover. I always try and learn new skills in order to enhance
+                  my abilities. I am a fast learner, highly motivated and able
+                  to work under pressure.
                 </p>
                 <p className='text-justify'>
-                  I'm pleased to help people solve their problems with cutting
-                  edge technologies. I have 10+ years experience in industrial &
-                  agriculture sector. I participate in 50+ awesome projects. If
-                  you have any problems. Let me take care.
+                  I am willing to help people solve their problems with strong
+                  analytical and problem-solving skills using cutting edge
+                  technologies. I have 10+ years experience in industrial &
+                  agriculture sectors and participate in 50+ awesome projects.
                 </p>
                 <p className='text-center'>
-                  Line ID: 9pol | Mobile: 0896778789 | Email: 9pol@9pol.dev
+                  Line ID: 9pol | Mobile: (+66) 089-677-8789 | Email:
+                  9pol@9pol.dev
                 </p>
               </div>
             </div>
@@ -161,7 +162,7 @@ const Index = () => {
               - Freelance (Sep 19 - Present)
               <br />
               <span className='font-weight-bold font-italic'>
-                Embedded Hardware & Software Team Lead
+                Embedded Hardware Team Lead
               </span>{' '}
               - Energy Response Co., Ltd. (Aug 17 - Aug 19)
               <br />
@@ -189,25 +190,27 @@ const Index = () => {
             <p className='lead font-weight-bold'>SKILLS</p>
             <p>
               <span className='font-weight-bold font-italic'>Electronics</span>{' '}
-              - Circuit & PCB Design, MCU (Arduino, ESP32, STM32 etc.), IoT
-              (NB-IoT, LoRa, MQTT etc.), Embedded Linux (Raspberry Pi)
+              - Circuit & PCB Design, MCU (Arduino, ESP32, STM32), IoT (NB-IoT,
+              LoRa, MQTT), Embedded Linux (Raspberry Pi)
               <br />
               <span className='font-weight-bold font-italic'>
                 Programming Languages
               </span>{' '}
-              - C, C++, Python, HTML, CSS, JavaScript, TypeScript, PHP, Dart
+              - C, C++, Python, HTML, CSS, JavaScript, TypeScript, PHP
               <br />
-              <span className='font-weight-bold font-italic'>Frameworks</span> -
-              ReactJs, NodeJs, NestJs, Node-RED, Flutter
+              <span className='font-weight-bold font-italic'>
+                Programming Frameworks
+              </span>{' '}
+              - ReactJs, NodeJs, NestJs, Node-RED
               <br />
               <span className='font-weight-bold font-italic'>Databases</span> -
-              MySQL, MongoDB, PostgreSQL, TimeScaleDB, influxDB, SQLite
+              MySQL, MongoDB, PostgreSQL, TimeScaleDB, SQLite
               <br />
               <span className='font-weight-bold font-italic'>Platforms</span> -
-              Digital Ocean, AWS, Firebase
+              Digital Ocean, Firebase
               <br />
               <span className='font-weight-bold font-italic'>Tools</span> - git,
-              VSCode, Docker, PostMan
+              VSCode, Docker, PostMan etc.
               <br />
             </p>
           </div>

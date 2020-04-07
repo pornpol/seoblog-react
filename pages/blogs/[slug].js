@@ -19,7 +19,7 @@ const SingleBlog = ({ blog, query }) => {
   const [related, setRelated] = useState([]);
 
   const loadRelated = () => {
-    listRelated({ blog }).then(data => {
+    listRelated({ blog }).then((data) => {
       if (data.error) {
         console.log(data.error);
       } else {
@@ -55,14 +55,14 @@ const SingleBlog = ({ blog, query }) => {
     </Head>
   );
 
-  const showBlogCategories = blog =>
+  const showBlogCategories = (blog) =>
     blog.categories.map((c, i) => (
       <Link key={i} href={`/categories/${c.slug}`}>
         <a className='btn btn-primary mr-1 ml-1 mt-3'>{c.name}</a>
       </Link>
     ));
 
-  const showBlogTags = blog =>
+  const showBlogTags = (blog) =>
     blog.tags.map((t, i) => (
       <Link key={i} href={`/tags/${t.slug}`}>
         <a className='btn btn-outline-primary mr-1 ml-1 mt-3'>{t.name}</a>
@@ -131,7 +131,7 @@ const SingleBlog = ({ blog, query }) => {
             <div className='container'>
               <section>
                 <div className='col-md-12 lead'>
-                  {renderHTML(blog.body.replace('<img ', '<img width="100%"'))}
+                  {renderHTML(blog.body.replace(/<img /g, '<img width="100%"'))}
                 </div>
               </section>
             </div>
@@ -149,7 +149,7 @@ const SingleBlog = ({ blog, query }) => {
 };
 
 SingleBlog.getInitialProps = ({ query }) => {
-  return singleBlog(query.slug).then(data => {
+  return singleBlog(query.slug).then((data) => {
     if (data.error) {
       console.log(data.error);
     } else {
