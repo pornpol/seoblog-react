@@ -131,9 +131,7 @@ const SingleBlog = ({ blog, query }) => {
             <div className='container'>
               <section>
                 <div className='col-md-12 lead'>
-                  {renderHTML(
-                    blog.body.replace('<img ', '<img max-width="720px"')
-                  )}
+                  {renderHTML(blog.body.replace('<img ', '<img width="100%"'))}
                 </div>
               </section>
             </div>
