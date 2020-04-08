@@ -85,6 +85,13 @@ const Index = () => {
       header: 'Physical therapy machine',
       key: '8',
     },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project9.jpg`,
+      altText: 'LoRa Environment Sensor',
+      caption: 'Ultralow power LoRa environment sensor',
+      header: 'LoRa Environment Sensor',
+      key: '9',
+    },
   ];
 
   const head = () => (
