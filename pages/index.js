@@ -11,22 +11,22 @@ const Index = () => {
       altText: 'Slide 1',
       caption: 'Full-Stack IoT Developer',
       header: 'PORNPOL WASUWAT',
-      key: '1'
+      key: '1',
     },
     {
       src: `${DOMAIN}/static/images/header2.jpg`,
       altText: 'Slide 2',
       caption: 'Runner',
       header: 'PORNPOL WASUWAT',
-      key: '2'
+      key: '2',
     },
     {
       src: `${DOMAIN}/static/images/header3.jpg`,
       altText: 'Slide 3',
       caption: 'Explorer',
       header: 'PORNPOL WASUWAT',
-      key: '3'
-    }
+      key: '3',
+    },
   ];
   const items2 = [
     {
@@ -34,50 +34,57 @@ const Index = () => {
       altText: 'IoT Environment Monitor',
       caption: 'Remote enviroment real-time monitor',
       header: 'IoT Environment Monitor',
-      key: '1'
+      key: '1',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project2.jpg`,
       altText: 'Production Monitoring System',
       caption: 'Real-time production monitor',
       header: 'Production Monitoring System',
-      key: '2'
+      key: '2',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project3.jpg`,
       altText: 'IoT Power Monitoring System',
       caption: 'Remote power real-time monitor',
       header: 'IoT Power Monitoring System',
-      key: '3'
+      key: '3',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project4.jpg`,
       altText: 'QRCode Generator',
       caption: 'Batch Generate QR-Code pdf',
       header: 'QRCode Generator',
-      key: '4'
+      key: '4',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project5.jpg`,
       altText: 'DevCamper API',
       caption: 'Backend API for the DevCamper application',
       header: 'DevCamper API',
-      key: '5'
+      key: '5',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project6.jpg`,
       altText: 'Ecommerce Website',
       caption: 'React Firebase ecommerce website',
       header: 'Ecommerce Website',
-      key: '6'
+      key: '6',
     },
     {
       src: `${DOMAIN}/static/images/portfolios/project7.jpg`,
       altText: 'Production Monitoring System',
       caption: 'Real-time production monitor',
       header: 'Production Monitoring System',
-      key: '7'
-    }
+      key: '7',
+    },
+    {
+      src: `${DOMAIN}/static/images/portfolios/project8.jpg`,
+      altText: 'Physical therapy machine',
+      caption: 'Automatic physical therapy machine',
+      header: 'Physical therapy machine',
+      key: '8',
+    },
   ];
 
   const head = () => (
@@ -231,7 +238,7 @@ const Index = () => {
                       backgroundImage:
                         'url(' +
                         'https://images.pexels.com/photos/34140/pexels-photo.jpg' +
-                        ')'
+                        ')',
                     }}
                   >
                     <h2 className='text-shadow text-center h1'>React</h2>
@@ -257,7 +264,7 @@ const Index = () => {
                       backgroundImage:
                         'url(' +
                         'https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg' +
-                        ')'
+                        ')',
                     }}
                   >
                     <h2 className='text-shadow text-center h1'>NodeJs</h2>
@@ -284,7 +291,7 @@ const Index = () => {
                       backgroundImage:
                         'url(' +
                         'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg' +
-                        ')'
+                        ')',
                     }}
                   >
                     <h2 className='text-shadow text-center h1'>IoT</h2>
