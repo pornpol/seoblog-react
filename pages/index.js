@@ -167,7 +167,7 @@ const Index = () => {
             </div>
           </div>
 
-          <div className='container'>
+          {/* <div className='container'>
             <p className='lead font-weight-bold'>WORK EXPERIENCE</p>
             <p>
               <span className='font-weight-bold font-italic'>
@@ -198,7 +198,11 @@ const Index = () => {
               <span className='font-weight-bold font-italic'>Programmer</span> -
               Toyota Tsusho Electronics (Thailand) Co., Ltd. (Apr 06 - Jan 07)
             </p>
-          </div>
+          </div> */}
+
+          {/* <div className='container'>
+            <p className='lead font-weight-bold'>SERVICES</p>
+          </div> */}
 
           <div className='container'>
             <p className='lead font-weight-bold'>SKILLS</p>
@@ -210,21 +214,20 @@ const Index = () => {
               <span className='font-weight-bold font-italic'>
                 Programming Languages
               </span>{' '}
-              - C, C++, Python, HTML, CSS, JavaScript, TypeScript, PHP
+              - C, C++, Python, HTML, CSS, JavaScript, TypeScript, PHP, Dart
               <br />
               <span className='font-weight-bold font-italic'>
                 Programming Frameworks
               </span>{' '}
-              - ReactJs, NodeJs, NestJs, Node-RED
+              - ReactJs, NodeJs, NestJs, Node-RED, Flutter
               <br />
               <span className='font-weight-bold font-italic'>Databases</span> -
               MySQL, MongoDB, PostgreSQL, TimeScaleDB, SQLite
               <br />
-              <span className='font-weight-bold font-italic'>Platforms</span> -
-              Digital Ocean, Firebase
-              <br />
-              <span className='font-weight-bold font-italic'>Tools</span> - git,
-              VSCode, Docker, PostMan etc.
+              <span className='font-weight-bold font-italic'>
+                Platforms & Toole
+              </span>{' '}
+              - Digital Ocean, VSCode, Docker, PostMan etc.
               <br />
             </p>
           </div>
